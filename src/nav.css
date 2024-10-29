@@ -1,0 +1,19 @@
+
+
+.navBar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    background-color: aqua;
+
+}
+
+.navBar img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navBar h2{
+    color: rgb(187, 100, 100);
+}

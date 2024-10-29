@@ -1,0 +1,51 @@
+.items{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.items div{
+    padding: 10px 5px;
+    border: 2px dotted black;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.items div img{
+    border-radius: 5px;
+}
+
+.items div:hover{
+    transform: scale(1.2);
+}
+
+
+.position {
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    align-items: center;    /* Center the text */
+    justify-content: center; /* Center the content vertically */
+    padding: 20px;          /* Add padding around the component */
+    border: 2px solid #007bff; /* Add a border */
+    border-radius: 8px;     /* Round the corners */
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    margin: 20px;           /* Space out from surrounding elements */
+    font-family: Arial, sans-serif; /* Change font */
+  }
+  
+  .position p {
+    margin: 5px 0; /* Space between paragraphs */
+    font-size: 18px; /* Slightly larger font size */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Optional: Add a hover effect */
+  .position:hover {
+    background-color: rgba(0, 123, 255, 0.2); /* Darker on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
